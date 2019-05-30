@@ -1,6 +1,12 @@
 # gup
 basic file uploader/remover for [gohst](https://github.com/voidiz/gohst)
 
+## requirements
+- `go 1.11+` (if building from source)
+
+## building
+`go install github.com/voidiz/gup`
+
 ## quick start and basic usage
 1. `gup config <host> <username> <password>` - Creates a configuration file where
 your auth token (generated using the supplied username and password) and the 
