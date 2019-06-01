@@ -2,10 +2,19 @@
 basic file uploader/remover for [gohst](https://github.com/voidiz/gohst)
 
 ## requirements
+tested with
 - `go 1.11+` (if building from source)
 
 ## building and installing
 `go get github.com/voidiz/gup`
+
+## prebuilt binaries
+https://github.com/voidiz/gup/releases
+
+Substitute `gup` with the path to the executable and run the 
+[quick start](#quick-start-and-basic-usage) commands in cmd/PowerShell. 
+Alternatively, add the folder where the executable is located to your 
+PATH environment variable and proceed as usual.
 
 ## quick start and basic usage
 1. `gup config <host> <username> <password>` - Creates a configuration file where
